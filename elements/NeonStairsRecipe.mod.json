@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:NeonPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NeonPlanks"
+      },
+      {
+        "value": "CUSTOM:NeonPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NeonPlanks"
+      },
+      {
+        "value": "CUSTOM:NeonPlanks"
+      },
+      {
+        "value": "CUSTOM:NeonPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NeonStairs"
+    },
+    "name": "neon_stairs_recipe",
+    "namespace": "mod"
+  }
+}

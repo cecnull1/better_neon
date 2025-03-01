@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "better_neon:neon_stick"
+    },
+    "1": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "item": "better_neon:jie_neon_wu_ran",
+    "count": 1
+  }
+}

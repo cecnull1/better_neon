@@ -1,0 +1,26 @@
+{
+  "group": "bark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "better_neon:neon_log"
+    },
+    "1": {
+      "item": "better_neon:neon_log"
+    },
+    "2": {
+      "item": "better_neon:neon_log"
+    },
+    "3": {
+      "item": "better_neon:neon_log"
+    }
+  },
+  "result": {
+    "item": "better_neon:neon_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "_fv": 47,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "neon_ore_block",
+    "textureBottom": "neon_ore_block",
+    "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "double",
+    "suspiciousStewEffect": "CUSTOM:Smyx4",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 4,
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Neon F 1",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BetterNeon"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 4,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:NeonBlock"
+      },
+      {
+        "value": "CUSTOM:NeonBlockCGH1"
+      },
+      {
+        "value": "CUSTOM:NeonIce"
+      },
+      {
+        "value": "CUSTOM:NeonLT1"
+      },
+      {
+        "value": "CUSTOM:NeonLT3"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "CUSTOM:NeonWorld",
+      "CUSTOM:NeonWorldA1"
+    ],
+    "restrictionBiomes": [],
+    "generationType": "Grass",
+    "patchSize": 64,
+    "generateAtAnyHeight": true,
+    "onEntityCollides": {
+      "name": "SMYS4DangYaoShuiXiaoGuoKaiShiYingYongShi"
+    },
+    "onRightClicked": {
+      "name": "NeonF1DangZhiWuBeiYouJianDianJiShi"
+    }
+  }
+}

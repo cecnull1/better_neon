@@ -1,0 +1,2582 @@
+{
+  "mod_elements": [
+    {
+      "name": "NeonIngot",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/item/NeonIngotItem.java",
+          "src/main/resources/assets/better_neon/models/item/neon_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/block/neon_ore.json",
+          "src/main/resources/assets/better_neon/blockstates/neon_ore.json",
+          "src/main/resources/assets/better_neon/models/item/neon_ore.json",
+          "src/main/java/net/mcreator/betterneon/world/features/ores/NeonOreFeature.java",
+          "src/main/java/net/mcreator/betterneon/block/NeonOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/neon_block.json",
+          "src/main/resources/assets/better_neon/models/block/neon_block.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonBlockBlock.java",
+          "src/main/resources/assets/better_neon/blockstates/neon_block.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonOreSmelting",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonPickaxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/neon_pickaxe.json",
+          "src/main/java/net/mcreator/betterneon/item/NeonPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonAxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/item/NeonAxeItem.java",
+          "src/main/resources/assets/better_neon/models/item/neon_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonSword",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/item/NeonSwordItem.java",
+          "src/main/resources/assets/better_neon/models/item/neon_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonShovel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/item/NeonShovelItem.java",
+          "src/main/resources/assets/better_neon/models/item/neon_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonHoe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/item/NeonHoeItem.java",
+          "src/main/resources/assets/better_neon/models/item/neon_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonAxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonSwordRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonShovelRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonHoeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonArmor",
+      "type": "armor",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/neon_armor_leggings.json",
+          "src/main/resources/assets/better_neon/models/item/neon_armor_helmet.json",
+          "src/main/java/net/mcreator/betterneon/item/NeonArmorItem.java",
+          "src/main/resources/assets/better_neon/models/item/neon_armor_boots.json",
+          "src/main/resources/assets/better_neon/models/item/neon_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonWood",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/block/neon_wood.json",
+          "src/main/resources/assets/better_neon/blockstates/neon_wood.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonWoodBlock.java",
+          "src/main/resources/assets/better_neon/models/item/neon_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonLog",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/neon_log.json",
+          "src/main/resources/assets/better_neon/blockstates/neon_log.json",
+          "src/main/resources/assets/better_neon/models/block/neon_log.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonLogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonPlanks",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/block/neon_planks.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonPlanksBlock.java",
+          "src/main/resources/assets/better_neon/blockstates/neon_planks.json",
+          "src/main/resources/assets/better_neon/models/item/neon_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonLeaves",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/blockstates/neon_leaves.json",
+          "src/main/resources/assets/better_neon/models/block/neon_leaves.json",
+          "src/main/resources/assets/better_neon/models/item/neon_leaves.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonLeavesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonStairs",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/block/neon_stairs.json",
+          "src/main/resources/assets/better_neon/models/block/neon_stairs_outer.json",
+          "src/main/resources/assets/better_neon/models/item/neon_stairs.json",
+          "src/main/resources/assets/better_neon/blockstates/neon_stairs.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonStairsBlock.java",
+          "src/main/resources/assets/better_neon/models/block/neon_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonSlab",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/blockstates/neon_slab.json",
+          "src/main/resources/assets/better_neon/models/block/neon_slab_top.json",
+          "src/main/resources/assets/better_neon/models/block/neon_slab_full.json",
+          "src/main/resources/assets/better_neon/models/item/neon_slab.json",
+          "src/main/resources/assets/better_neon/models/block/neon_slab.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonFence",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/blockstates/neon_fence.json",
+          "src/main/resources/assets/better_neon/models/block/neon_fence_inventory.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonFenceBlock.java",
+          "src/main/resources/assets/better_neon/models/item/neon_fence.json",
+          "src/main/resources/assets/better_neon/models/block/neon_fence.json",
+          "src/main/resources/assets/better_neon/models/block/neon_fence_post.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonFenceGate",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/block/neon_fence_gate_wall_open.json",
+          "src/main/resources/assets/better_neon/blockstates/neon_fence_gate.json",
+          "src/main/resources/assets/better_neon/models/block/neon_fence_gate_wall.json",
+          "src/main/resources/assets/better_neon/models/block/neon_fence_gate.json",
+          "src/main/resources/assets/better_neon/models/block/neon_fence_gate_open.json",
+          "src/main/resources/assets/better_neon/models/item/neon_fence_gate.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonFenceGateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonPressurePlate",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/block/neon_pressure_plate_down.json",
+          "src/main/resources/assets/better_neon/blockstates/neon_pressure_plate.json",
+          "src/main/resources/assets/better_neon/models/block/neon_pressure_plate.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonPressurePlateBlock.java",
+          "src/main/resources/assets/better_neon/models/item/neon_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonButton",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/blockstates/neon_button.json",
+          "src/main/resources/assets/better_neon/models/block/neon_button_inventory.json",
+          "src/main/resources/assets/better_neon/models/block/neon_button.json",
+          "src/main/resources/assets/better_neon/models/block/neon_button_pressed.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonButtonBlock.java",
+          "src/main/resources/assets/better_neon/models/item/neon_button.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonItemsTag",
+      "type": "tag",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/neon_log.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonWoodRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonPlanksRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonStairsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonSlabRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonFenceRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonButtonRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonStickRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EChest",
+      "type": "structure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_chest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/world/features/EChestFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonLT1DangShengWuWanJiaPengZhuangZheGeFangKuaiShi",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_lt_1_dang_sheng_wu_wan_jia_peng_zhuang_zhe_ge_fang_kuai_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/NeonLT1DangShengWuWanJiaPengZhuangZheGeFangKuaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeonLT1",
+      "type": "fluid",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "neon_lt_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/fluid/NeonLT1Fluid.java",
+          "src/main/java/net/mcreator/betterneon/block/NeonLT1Block.java",
+          "src/main/java/net/mcreator/betterneon/item/NeonLT1Item.java",
+          "src/main/resources/assets/better_neon/models/item/neon_lt_1_bucket.json",
+          "src/main/resources/assets/better_neon/blockstates/neon_lt_1.json",
+          "src/main/resources/assets/better_neon/models/block/neon_lt_1.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonWorldF1",
+      "type": "biome",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_world_f_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/world/biome/NeonWorldF1Biome.java",
+          "src/main/java/net/mcreator/betterneon/world/features/treedecorators/NeonWorldF1FruitDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonWorld",
+      "type": "dimension",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_world",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/world/dimension/NeonWorldDimension.java",
+          "src/main/resources/data/better_neon/dimension/neon_world.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonWorldPortalBlock.java",
+          "src/main/resources/assets/better_neon/models/block/neon_world_portal_ew.json",
+          "src/main/java/net/mcreator/betterneon/world/teleporter/NeonWorldTeleporter.java",
+          "src/main/resources/assets/better_neon/models/block/neon_world_portal_ns.json",
+          "src/main/resources/data/better_neon/dimension_type/neon_world.json",
+          "src/main/resources/assets/better_neon/models/item/neon_world.json",
+          "src/main/java/net/mcreator/betterneon/world/teleporter/NeonWorldPortalShape.java",
+          "src/main/java/net/mcreator/betterneon/item/NeonWorldItem.java",
+          "src/main/resources/assets/better_neon/blockstates/neon_world_portal.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonWorldWDJH",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_world_wdjh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_world_wdjh.json"
+        ]
+      }
+    },
+    {
+      "name": "IrontoNeon1",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironto_neon_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/ironto_neon_1.json"
+        ]
+      }
+    },
+    {
+      "name": "NeontoIron1",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neonto_iron_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neonto_iron_1.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonLT2",
+      "type": "particle",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_lt_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/client/particle/NeonLT2Particle.java",
+          "src/main/resources/assets/better_neon/particles/neon_lt_2.json"
+        ]
+      }
+    },
+    {
+      "name": "SMYS1DangYaoShuiXiaoGuoKaiShiYingYongShi",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smys_1_dang_yao_shui_xiao_guo_kai_shi_ying_yong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/SMYS1DangYaoShuiXiaoGuoKaiShiYingYongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SMYS1",
+      "type": "potioneffect",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smys_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/potion/SMYS1MobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "SMYS2",
+      "type": "potion",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smys_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SMYS1PF",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smys_1_pf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/recipes/brewing/SMYS1PFBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "SMYS3DangYaoShuiXiaoGuoKaiShiYingYongShi",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smys_3_dang_yao_shui_xiao_guo_kai_shi_ying_yong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/SMYS3DangYaoShuiXiaoGuoKaiShiYingYongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SMYS3",
+      "type": "potioneffect",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smys_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/potion/SMYS3MobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonLT3",
+      "type": "fluid",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "neon_lt_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/fluid/NeonLT3Fluid.java",
+          "src/main/resources/assets/better_neon/models/block/neon_lt_3.json",
+          "src/main/java/net/mcreator/betterneon/item/NeonLT3Item.java",
+          "src/main/java/net/mcreator/betterneon/block/NeonLT3Block.java",
+          "src/main/resources/assets/better_neon/blockstates/neon_lt_3.json",
+          "src/main/resources/assets/better_neon/models/item/neon_lt_3_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonLT3DangShengWuWanJiaPengZhuangZheGeFangKuaiShi",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_lt_3_dang_sheng_wu_wan_jia_peng_zhuang_zhe_ge_fang_kuai_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/NeonLT3DangShengWuWanJiaPengZhuangZheGeFangKuaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeonWorld2",
+      "type": "feature",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_world_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/world/features/NeonWorld2Feature.java"
+        ]
+      }
+    },
+    {
+      "name": "SMYS4DangYaoShuiXiaoGuoKaiShiYingYongShi",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smys_4_dang_yao_shui_xiao_guo_kai_shi_ying_yong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/SMYS4DangYaoShuiXiaoGuoKaiShiYingYongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Smyx4",
+      "type": "potioneffect",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smyx_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/potion/Smyx4MobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonIce",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/neon_ice.json",
+          "src/main/resources/assets/better_neon/blockstates/neon_ice.json",
+          "src/main/resources/assets/better_neon/models/block/neon_ice.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonIceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonArmorTouKuiShiJian",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_armor_tou_kui_shi_jian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/NeonArmorTouKuiShiJianProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AZ",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "az",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/AZProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeonWorld21",
+      "type": "feature",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_world_21",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/world/features/NeonWorld21Feature.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonWorld22",
+      "type": "feature",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_world_22",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/world/features/NeonWorld22Feature.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonWorldF2",
+      "type": "biome",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_world_f_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/world/features/treedecorators/NeonWorldF2FruitDecorator.java",
+          "src/main/java/net/mcreator/betterneon/world/biome/NeonWorldF2Biome.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonBlockCGH1",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_cgh_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/neon_block_cgh_1.json",
+          "src/main/resources/assets/better_neon/models/block/neon_block_cgh_1.json",
+          "src/main/resources/assets/better_neon/blockstates/neon_block_cgh_1.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonBlockCGH1Block.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonBlockCGH2",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_cgh_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_block_cgh_2.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonBlockCGH3",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_cgh_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_block_cgh_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Zidongyidong1",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zidongyidong_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/Zidongyidong1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeontoIceNeon",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neonto_ice_neon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neonto_ice_neon.json"
+        ]
+      }
+    },
+    {
+      "name": "IceNeontoNeon",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_neonto_neon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/ice_neonto_neon.json"
+        ]
+      }
+    },
+    {
+      "name": "IceNeontoIce",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_neonto_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/ice_neonto_ice.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonIngotEx",
+      "type": "itemextension",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_ingot_ex",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "NeonPlankstag",
+      "type": "tag",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_plankstag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonLogTag",
+      "type": "tag",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_log_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      }
+    },
+    {
+      "name": "NoSpNeonLT1",
+      "type": "fluid",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "no_sp_neon_lt_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/block/no_sp_neon_lt_1.json",
+          "src/main/java/net/mcreator/betterneon/item/NoSpNeonLT1Item.java",
+          "src/main/java/net/mcreator/betterneon/block/NoSpNeonLT1Block.java",
+          "src/main/resources/assets/better_neon/models/item/no_sp_neon_lt_1_bucket.json",
+          "src/main/java/net/mcreator/betterneon/fluid/NoSpNeonLT1Fluid.java",
+          "src/main/resources/assets/better_neon/blockstates/no_sp_neon_lt_1.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonIngottomodtag1",
+      "type": "tag",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_ingottomodtag_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/neon.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockofNeonToMod",
+      "type": "tag",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockof_neon_to_mod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/storage_blocks/neon.json"
+        ]
+      }
+    },
+    {
+      "name": "Blockofneontodirt",
+      "type": "tag",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofneontodirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonF1",
+      "type": "plant",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_f_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/blockstates/neon_f_1.json",
+          "src/main/resources/assets/better_neon/models/block/neon_f_1.json",
+          "src/main/resources/assets/better_neon/models/item/neon_f_1.json",
+          "src/main/java/net/mcreator/betterneon/block/NeonF1Block.java",
+          "src/main/java/net/mcreator/betterneon/world/features/plants/NeonF1Feature.java",
+          "src/main/resources/assets/better_neon/models/block/neon_f_1_bottom.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonF1toNeonofBlock1",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_f_1to_neonof_block_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neon_f_1to_neonof_block_1.json"
+        ]
+      }
+    },
+    {
+      "name": "ZhanWeiDarkYufengShiTiChuShiShengChengShi",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhan_wei_dark_yufeng_shi_ti_chu_shi_sheng_cheng_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/ZhanWeiDarkYufengShiTiChuShiShengChengShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZhanWeiDarkYufeng",
+      "type": "livingentity",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhan_wei_dark_yufeng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/client/renderer/ZhanWeiDarkYufengRenderer.java",
+          "src/main/java/net/mcreator/betterneon/entity/ZhanWeiDarkYufengEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ZhanWeiWolfy",
+      "type": "livingentity",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhan_wei_wolfy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/client/renderer/ZhanWeiWolfyRenderer.java",
+          "src/main/java/net/mcreator/betterneon/entity/ZhanWeiWolfyEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ZhanWeiWolfyShiTiChuShiShengChengShi",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhan_wei_wolfy_shi_ti_chu_shi_sheng_cheng_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/ZhanWeiWolfyShiTiChuShiShengChengShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnimalsSpawnableOnBlocks",
+      "type": "tag",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animals_spawnable_on_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/animals_spawnable_on.json"
+        ]
+      }
+    },
+    {
+      "name": "ZhanWeiDarkYufengZiRanShiTiShengChengTiaoJian",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhan_wei_dark_yufeng_zi_ran_shi_ti_sheng_cheng_tiao_jian",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/ZhanWeiDarkYufengZiRanShiTiShengChengTiaoJianProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Air1",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/air_1_boots.json",
+          "src/main/resources/assets/better_neon/models/item/air_1_helmet.json",
+          "src/main/resources/assets/better_neon/models/item/air_1_chestplate.json",
+          "src/main/resources/assets/better_neon/models/item/air_1_leggings.json",
+          "src/main/java/net/mcreator/betterneon/item/Air1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Neontoiron2",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neontoiron_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/neontoiron_2.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonF1DangZhiWuBeiYouJianDianJiShi",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_f_1_dang_zhi_wu_bei_you_jian_dian_ji_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/NeonF1DangZhiWuBeiYouJianDianJiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Air1HuTuiShiJian",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_1_hu_tui_shi_jian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/Air1HuTuiShiJianProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeonBlockCGH1DangGuFenChengGongShiYongShi",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_cgh_1_dang_gu_fen_cheng_gong_shi_yong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/NeonBlockCGH1DangGuFenChengGongShiYongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EntityTick",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/EntityTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FMWuFaXiaCheng",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fm_wu_fa_xia_cheng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/FMWuFaXiaChengProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LegBuKongQI",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leg_bu_kong_qi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/LegBuKongQIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EntityMountEvent1",
+      "type": "code",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "entity_mount_event_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/EntityMountEvent1.java"
+        ]
+      }
+    },
+    {
+      "name": "ZiDongYiDong2",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zi_dong_yi_dong_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/ZiDongYiDong2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FMZidongyidong",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fm_zidongyidong",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/FMZidongyidongProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeonWorldA1",
+      "type": "dimension",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_world_a_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/block/neon_world_a_1_portal_ns.json",
+          "src/main/java/net/mcreator/betterneon/world/teleporter/NeonWorldA1Teleporter.java",
+          "src/main/resources/data/better_neon/dimension_type/neon_world_a_1.json",
+          "src/main/resources/assets/better_neon/blockstates/neon_world_a_1_portal.json",
+          "src/main/resources/data/better_neon/dimension/neon_world_a_1.json",
+          "src/main/java/net/mcreator/betterneon/item/NeonWorldA1Item.java",
+          "src/main/resources/assets/better_neon/models/item/neon_world_a_1.json",
+          "src/main/resources/assets/better_neon/models/block/neon_world_a_1_portal_ew.json",
+          "src/main/java/net/mcreator/betterneon/world/teleporter/NeonWorldA1PortalShape.java",
+          "src/main/java/net/mcreator/betterneon/world/dimension/NeonWorldA1Dimension.java",
+          "src/main/java/net/mcreator/betterneon/block/NeonWorldA1PortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ToNeonWorldA1",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_neon_world_a_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/to_neon_world_a_1.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonWorldFA1",
+      "type": "biome",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_world_fa_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/world/features/treedecorators/NeonWorldFA1FruitDecorator.java",
+          "src/main/java/net/mcreator/betterneon/world/biome/NeonWorldFA1Biome.java"
+        ]
+      }
+    },
+    {
+      "name": "BetterNeon",
+      "type": "tab",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_neon",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PlayerFHEvent",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_fh_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/PlayerFHEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerSWEvent",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_sw_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/PlayerSWEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeonIceDangFangKuaiBeiWanJiaPoPiShi",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_ice_dang_fang_kuai_bei_wan_jia_po_pi_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/NeonIceDangFangKuaiBeiWanJiaPoPiShiProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "NaIWuRanChuFa",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "na_i_wu_ran_chu_fa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/NaIWuRanChuFaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeonLT1Gamerule1",
+      "type": "gamerule",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_lt_1_gamerule_1",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "TransfurType",
+      "type": "gamerule",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transfur_type",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      }
+    },
+    {
+      "name": "ZuZhouBoat",
+      "type": "livingentity",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zu_zhou_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/zu_zhou_boat_spawn_egg.json",
+          "src/main/java/net/mcreator/betterneon/entity/ZuZhouBoatEntity.java",
+          "src/main/java/net/mcreator/betterneon/client/renderer/ZuZhouBoatRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ZuZhouBoatCode1",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zu_zhou_boat_code_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/ZuZhouBoatCode1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZuZhouHorse",
+      "type": "livingentity",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zu_zhou_horse",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/zu_zhou_horse_spawn_egg.json",
+          "src/main/java/net/mcreator/betterneon/entity/ZuZhouHorseEntity.java",
+          "src/main/java/net/mcreator/betterneon/client/renderer/ZuZhouHorseRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ZuZhouHorseShiTiChuShiShengChengShi",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zu_zhou_horse_shi_ti_chu_shi_sheng_cheng_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/ZuZhouHorseShiTiChuShiShengChengShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QiDongZiDongYiDong",
+      "type": "gamerule",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qi_dong_zi_dong_yi_dong",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "QiShangShouHua",
+      "type": "gamerule",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qi_shang_shou_hua",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "RuoXingShouHua1",
+      "type": "gamerule",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruo_xing_shou_hua_1",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "JieNeonWuRanDangShiTiHuiDongWuPinShi",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jie_neon_wu_ran_dang_shi_ti_hui_dong_wu_pin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/JieNeonWuRanDangShiTiHuiDongWuPinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JieNeonWuRan",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jie_neon_wu_ran",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/jie_neon_wu_ran.json",
+          "src/main/java/net/mcreator/betterneon/item/JieNeonWuRanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NeonStick",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/neon_stick.json",
+          "src/main/java/net/mcreator/betterneon/item/NeonStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ToJNWR",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_jnwr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/to_jnwr.json"
+        ]
+      }
+    },
+    {
+      "name": "ToNeonStick",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_neon_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/to_neon_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "NeonIngotDangYouJianDianJiKongQiShi",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_ingot_dang_you_jian_dian_ji_kong_qi_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/NeonIngotDangYouJianDianJiKongQiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NWRSH",
+      "type": "gamerule",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nwrsh",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "WD1",
+      "type": "gamerule",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wd_1",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "WD2",
+      "type": "gamerule",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wd_2",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "WFSCZDQC",
+      "type": "gamerule",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wfsczdqc",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "HORSEWFSC1",
+      "type": "gamerule",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horsewfsc_1",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "HORSEWFSC2",
+      "type": "gamerule",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horsewfsc_2",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "BCNWR",
+      "type": "gamerule",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bcnwr",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "SMYS3Potion",
+      "type": "potion",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smys_3_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Eee",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/EeeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "command",
+            "type": "string"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JNWRCP",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jnwrcp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/JNWRCPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JieNeonWuRanCommand",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jie_neon_wu_ran_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/command/JieNeonWuRanCommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ZuZhouHorseZiRanShiTiShengChengTiaoJian",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zu_zhou_horse_zi_ran_shi_ti_sheng_cheng_tiao_jian",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/ZuZhouHorseZiRanShiTiShengChengTiaoJianProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeonLT1syringeWanJiaWanChengShiYongWuPinShi",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_lt_1syringe_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/NeonLT1syringeWanJiaWanChengShiYongWuPinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeonLT1syringe",
+      "type": "item",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_lt_1syringe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_neon/models/item/neon_lt_1syringe.json",
+          "src/main/java/net/mcreator/betterneon/item/NeonLT1syringeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CFZSGNeonLT1",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cfzsg_neon_lt_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/CFZSGNeonLT1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetZSGNeonLT1",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_zsg_neon_lt_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterneon/procedures/SetZSGNeonLT1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BLZSGNeomLT1",
+      "type": "gamerule",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blzsg_neom_lt_1",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "Toneonlt1s",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "toneonlt_1s",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_neon/recipes/toneonlt_1s.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.better_neon.no_sp_neon_lt_1_bucket": "No Sp Neon LT Bucket",
+      "block.better_neon.neon_ore": "Neon Ore",
+      "item.better_neon.neon_armor_chestplate": "Neon Chestplate",
+      "block.better_neon.neon_block_cgh_1": "Block of CGH Neon",
+      "gamerule.wFSCZDQC": "含有WFSC标签的实体是否允许强制玩家骑上该实体",
+      "item.better_neon.air_1_leggings": "Air 1 护腿",
+      "item.minecraft.lingering_potion.effect.smys_2": "Lingering Potion of SMYS 2",
+      "item.better_neon.air_1_helmet": "Air 1 头盔",
+      "fluid.better_neon.neon_lt_1": "Neon LT 1",
+      "gamerule.neonLT1Gamerule1": "Neon LT 1 强制骑乘",
+      "block.better_neon.neon_button": "Neon Button",
+      "effect.better_neon.smys_1": "SMYS",
+      "gamerule.neonLT1Gamerule1.description": "用于旧兼容设计，新版本不会再次默认True",
+      "effect.better_neon.smys_3": "SMYS2",
+      "gamerule.nWRSH": "氖污染兽化",
+      "item.better_neon.neon_lt_1syringe": "Neon LT 1 Syringe",
+      "gamerule.qiShangShouHua.description": "-",
+      "entity.better_neon.zhan_wei_wolfy": "Zhan Wei Wolfy",
+      "fluid.better_neon.neon_lt_3": "Neon LT 3",
+      "item.minecraft.splash_potion.effect.smys_3_potion": "Splash Potion of SMYS 3 Potion",
+      "item.better_neon.jie_neon_wu_ran": "解Neon污染",
+      "biome.better_neon.neon_world_f_1": "Neon World F 1",
+      "block.better_neon.no_sp_neon_lt_1": "Neon LT 1",
+      "biome.better_neon.neon_world_f_2": "Neon World F 2",
+      "item.better_neon.neon_world": "Neon World Portal Igniter",
+      "block.better_neon.neon_lt_3": "Neon LT 3",
+      "gamerule.qiDongZiDongYiDong": "是否启用自动移动",
+      "block.better_neon.neon_lt_1": "Neon LT 1",
+      "block.better_neon.neon_slab": "Neon Slab",
+      "block.better_neon.neon_ice": "Neon Ice",
+      "item.better_neon.neon_world_a_1": "Neon World A 1 Portal Igniter",
+      "item.better_neon.neon_hoe": "Neon Hoe",
+      "item.better_neon.neon_lt_3_bucket": "Neon LT 3 Bucket",
+      "fluid.better_neon.no_sp_neon_lt_1": "Neon LT 1",
+      "gamerule.nWRSH.description": "-",
+      "gamerule.wFSCZDQC.description": "-",
+      "item.better_neon.neon_armor_boots": "Neon Boots",
+      "block.better_neon.neon_fence_gate": "Neon Fence Gate",
+      "gamerule.wD2.description": "-",
+      "block.better_neon.neon_f_1": "Neon F 1",
+      "item.better_neon.neon_shovel": "Neon Shovel",
+      "gamerule.wD1.description": "-",
+      "block.better_neon.neon_wood": "Neon Wood",
+      "item.better_neon.neon_armor_leggings": "Neon Leggings",
+      "biome.better_neon.neon_world_fa_1": "Neon World F 2",
+      "item.minecraft.lingering_potion.effect.smys_3_potion": "Lingering Potion of SMYS 3 Potion",
+      "item.better_neon.neon_lt_1_bucket": "Neon LT 1 Bucket",
+      "gamerule.qiShangShouHua": "骑上兽化",
+      "effect.better_neon.smyx_4": "SMYX4",
+      "gamerule.ruoXingShouHua1": "弱性兽化（骑乘时）",
+      "entity.better_neon.zu_zhou_boat": "Zhan Wei Dark Yufeng",
+      "gamerule.neonLT3Gamerule1.description": "不仅自身变为源，上方如果有空间则变成自己源",
+      "gamerule.transfurType.description": "0 \u003d 黑胶御风 1 \u003d 复合体胶液Yuin 2 \u003d 毒气兽化狼",
+      "block.better_neon.neon_leaves": "Neon Leaves",
+      "gamerule.neonLT3Gamerule1": "极端化繁殖",
+      "block.better_neon.neon_planks": "Neon Planks",
+      "gamerule.hORSEWFSC1.description": "仅对于含WFSC标签的马",
+      "item.better_neon.neon_sword": "Neon Sword",
+      "item.better_neon.air_1_boots": "Air 1 靴子",
+      "gamerule.transfurType": "Neon LT Transfur Type",
+      "item.better_neon.neon_armor_helmet": "Neon Helmet",
+      "item.minecraft.potion.effect.smys_3_potion": "Potion of SMYS 3 Potion",
+      "item.better_neon.neon_ingot": "Neon",
+      "gamerule.hORSEWFSC2.description": "仅对于含WFSC标签的马",
+      "gamerule.bLZSGNeomLT1": "保留注射NeonLT1状态",
+      "item.better_neon.neon_axe": "Neon Axe",
+      "block.better_neon.neon_stairs": "Neon Stairs",
+      "gamerule.bCNWR.description": "死亡复活后依旧存在。",
+      "block.better_neon.neon_block": "Block of Neon",
+      "item.better_neon.neon_pickaxe": "Neon Pickaxe",
+      "block.better_neon.neon_log": "Neon Log",
+      "item.better_neon.neon_stick": "Neon Stick",
+      "gamerule.qiDongZiDongYiDong.description": "-",
+      "gamerule.hORSEWFSC2": "骑乘后是否自动添加鞍",
+      "gamerule.bLZSGNeomLT1.description": "-",
+      "item.better_neon.air_1_chestplate": "Air 1 胸甲",
+      "gamerule.hORSEWFSC1": "骑乘后是否自动添加马铠",
+      "block.better_neon.neon_pressure_plate": "Neon Pressure Plate",
+      "item.better_neon.zu_zhou_boat_spawn_egg": "Zhan Wei Dark Yufeng Spawn Egg",
+      "item.minecraft.splash_potion.effect.smys_2": "Splash Potion of SMYS 2",
+      "gamerule.wD1": "所骑乘的含WFXC的生物是否无敌",
+      "item.minecraft.potion.effect.smys_2": "Potion of SMYS 2",
+      "gamerule.wD2": "玩家被氖污染后是否无敌",
+      "itemGroup.tabbetter_neon": "Better Neon",
+      "block.better_neon.neon_fence": "Neon Fence",
+      "item.better_neon.zu_zhou_horse_spawn_egg": "Zhan Wei Dark Yufeng Spawn Egg",
+      "item.minecraft.tipped_arrow.effect.smys_3_potion": "Arrow of SMYS 3 Potion",
+      "gamerule.bCNWR": "保持氖污染？",
+      "entity.better_neon.zhan_wei_dark_yufeng": "Zhan Wei Dark Yufeng",
+      "entity.better_neon.zu_zhou_horse": "Zhan Wei Dark Yufeng",
+      "gamerule.ruoXingShouHua1.description": "-",
+      "item.minecraft.tipped_arrow.effect.smys_2": "Arrow of SMYS 2"
+    },
+    "zh_cn": {
+      "item.better_neon.no_sp_neon_lt_1_bucket": "No Sp Neon LT Bucket",
+      "block.better_neon.neon_ore": "Neon Ore",
+      "item.better_neon.neon_armor_chestplate": "Neon Chestplate",
+      "block.better_neon.neon_block_cgh_1": "Block of CGH Neon",
+      "gamerule.wFSCZDQC": "含有WFSC标签的实体是否允许强制玩家骑上该实体",
+      "item.better_neon.air_1_leggings": "Air 1 Leggings",
+      "item.minecraft.lingering_potion.effect.smys_2": "Lingering Potion of SMYS 2",
+      "item.better_neon.air_1_helmet": "Air 1 Helmet",
+      "fluid.better_neon.neon_lt_1": "Neon LT 1",
+      "gamerule.neonLT1Gamerule1": "Neon LT 1 强制骑乘",
+      "block.better_neon.neon_button": "Neon Button",
+      "effect.better_neon.smys_1": "SMYS",
+      "gamerule.neonLT1Gamerule1.description": "用于旧兼容设计，新版本不会再次默认True",
+      "effect.better_neon.smys_3": "SMYS2",
+      "gamerule.nWRSH": "氖污染兽化",
+      "item.better_neon.neon_lt_1syringe": "Neon LT 1 Syringe",
+      "gamerule.qiShangShouHua.description": "-",
+      "entity.better_neon.zhan_wei_wolfy": "Zhan Wei Wolfy",
+      "fluid.better_neon.neon_lt_3": "Neon LT 3",
+      "item.minecraft.splash_potion.effect.smys_3_potion": "Splash Potion of SMYS 3 Potion",
+      "item.better_neon.jie_neon_wu_ran": "解Neon污染",
+      "biome.better_neon.neon_world_f_1": "Neon World F 1",
+      "block.better_neon.no_sp_neon_lt_1": "Neon LT 1",
+      "biome.better_neon.neon_world_f_2": "Neon World F 2",
+      "item.better_neon.neon_world": "Neon World Portal Igniter",
+      "block.better_neon.neon_lt_3": "Neon LT 3",
+      "gamerule.qiDongZiDongYiDong": "是否启用自动移动",
+      "block.better_neon.neon_lt_1": "Neon LT 1",
+      "block.better_neon.neon_slab": "Neon Slab",
+      "block.better_neon.neon_ice": "Neon Ice",
+      "item.better_neon.neon_world_a_1": "Neon World A 1 Portal Igniter",
+      "item.better_neon.neon_hoe": "Neon Hoe",
+      "item.better_neon.neon_lt_3_bucket": "Neon LT 3 Bucket",
+      "fluid.better_neon.no_sp_neon_lt_1": "Neon LT 1",
+      "gamerule.nWRSH.description": "-",
+      "gamerule.wFSCZDQC.description": "-",
+      "item.better_neon.neon_armor_boots": "Neon Boots",
+      "block.better_neon.neon_fence_gate": "Neon Fence Gate",
+      "gamerule.wD2.description": "-",
+      "block.better_neon.neon_f_1": "Neon F 1",
+      "item.better_neon.neon_shovel": "Neon Shovel",
+      "gamerule.wD1.description": "-",
+      "block.better_neon.neon_wood": "Neon Wood",
+      "item.better_neon.neon_armor_leggings": "Neon Leggings",
+      "biome.better_neon.neon_world_fa_1": "Neon World F 2",
+      "item.minecraft.lingering_potion.effect.smys_3_potion": "Lingering Potion of SMYS 3 Potion",
+      "item.better_neon.neon_lt_1_bucket": "Neon LT 1 Bucket",
+      "gamerule.qiShangShouHua": "骑上兽化",
+      "effect.better_neon.smyx_4": "SMYX4",
+      "gamerule.ruoXingShouHua1": "弱性兽化（骑乘时）",
+      "entity.better_neon.zu_zhou_boat": "Zhan Wei Dark Yufeng",
+      "gamerule.neonLT3Gamerule1.description": "不仅自身变为源，上方如果有空间则变成自己源",
+      "gamerule.transfurType.description": "0 \u003d 黑胶御风 1 \u003d 复合体胶液Yuin",
+      "block.better_neon.neon_leaves": "Neon Leaves",
+      "gamerule.neonLT3Gamerule1": "极端化繁殖",
+      "block.better_neon.neon_planks": "Neon Planks",
+      "gamerule.hORSEWFSC1.description": "仅对于含WFSC标签的马",
+      "item.better_neon.neon_sword": "Neon Sword",
+      "item.better_neon.air_1_boots": "Air 1  Boots",
+      "gamerule.transfurType": "Neon LT Transfur Type",
+      "item.better_neon.neon_armor_helmet": "Neon Helmet",
+      "item.minecraft.potion.effect.smys_3_potion": "Potion of SMYS 3 Potion",
+      "item.better_neon.neon_ingot": "Neon",
+      "gamerule.hORSEWFSC2.description": "仅对于含WFSC标签的马",
+      "gamerule.bLZSGNeomLT1": "保留注射NeonLT1状态",
+      "item.better_neon.neon_axe": "Neon Axe",
+      "block.better_neon.neon_stairs": "Neon Stairs",
+      "gamerule.bCNWR.description": "死亡复活后依旧存在。",
+      "block.better_neon.neon_block": "Block of Neon",
+      "item.better_neon.neon_pickaxe": "Neon Pickaxe",
+      "block.better_neon.neon_log": "Neon Log",
+      "item.better_neon.neon_stick": "Neon Stick",
+      "gamerule.qiDongZiDongYiDong.description": "-",
+      "gamerule.hORSEWFSC2": "骑乘后是否自动添加鞍",
+      "gamerule.bLZSGNeomLT1.description": "-",
+      "item.better_neon.air_1_chestplate": "Air 1 Chestplate",
+      "gamerule.hORSEWFSC1": "骑乘后是否自动添加马铠",
+      "block.better_neon.neon_pressure_plate": "Neon Pressure Plate",
+      "item.better_neon.zu_zhou_boat_spawn_egg": "Zhan Wei Dark Yufeng Spawn Egg",
+      "item.minecraft.splash_potion.effect.smys_2": "Splash Potion of SMYS 2",
+      "gamerule.wD1": "所骑乘的含WFXC的生物是否无敌",
+      "item.minecraft.potion.effect.smys_2": "Potion of SMYS 2",
+      "gamerule.wD2": "玩家被氖污染后是否无敌",
+      "itemGroup.tabbetter_neon": "Better Neon",
+      "block.better_neon.neon_fence": "Neon Fence",
+      "item.better_neon.zu_zhou_horse_spawn_egg": "Zhan Wei Dark Yufeng Spawn Egg",
+      "item.minecraft.tipped_arrow.effect.smys_3_potion": "Arrow of SMYS 3 Potion",
+      "gamerule.bCNWR": "保持氖污染？",
+      "entity.better_neon.zhan_wei_dark_yufeng": "Zhan Wei Dark Yufeng",
+      "entity.better_neon.zu_zhou_horse": "Zhan Wei Dark Yufeng",
+      "gamerule.ruoXingShouHua1.description": "-",
+      "item.minecraft.tipped_arrow.effect.smys_2": "Arrow of SMYS 2"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "better_neon",
+    "modName": "Better Neon",
+    "version": "1.2.0.3",
+    "author": "Administrator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "fm",
+    "requiredMods": [],
+    "dependencies": [
+      "noride2",
+      "changed"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.betterneon",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

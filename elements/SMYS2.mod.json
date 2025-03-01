@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of SMYS 2",
+    "splashName": "Splash Potion of SMYS 2",
+    "lingeringName": "Lingering Potion of SMYS 2",
+    "arrowName": "Arrow of SMYS 2",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:SMYS1"
+        },
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "wooden_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "better_neon:neon_planks"
+    },
+    "3": {
+      "item": "better_neon:neon_planks"
+    },
+    "4": {
+      "item": "better_neon:neon_planks"
+    },
+    "6": {
+      "item": "better_neon:neon_planks"
+    },
+    "7": {
+      "item": "better_neon:neon_planks"
+    },
+    "8": {
+      "item": "better_neon:neon_planks"
+    }
+  },
+  "result": {
+    "item": "better_neon:neon_stairs",
+    "count": 4
+  }
+}

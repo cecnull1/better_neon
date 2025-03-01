@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "changed:syringe"
+    },
+    {
+      "item": "better_neon:neon_lt_1_bucket"
+    },
+    {
+      "item": "changed:white_latex_goo"
+    }
+  ],
+  "result": {
+    "item": "better_neon:neon_lt_1syringe",
+    "count": 1
+  }
+}

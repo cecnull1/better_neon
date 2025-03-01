@@ -1,0 +1,24 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:NeonBlock"
+      },
+      {
+        "value": "CUSTOM:NeonIce"
+      },
+      {
+        "value": "CUSTOM:NeonBlockCGH1"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "dirt",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "better_neon:blocks/neon_log_top",
+    "up": "better_neon:blocks/neon_log_top",
+    "north": "better_neon:blocks/neon_log_side",
+    "east": "better_neon:blocks/neon_log_side",
+    "south": "better_neon:blocks/neon_log_side",
+    "west": "better_neon:blocks/neon_log_side",
+    "particle": "better_neon:blocks/neon_log_top"
+  }
+}

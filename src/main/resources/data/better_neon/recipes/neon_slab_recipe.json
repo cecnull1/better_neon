@@ -1,0 +1,22 @@
+{
+  "group": "wooden_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "better_neon:neon_planks"
+    },
+    "1": {
+      "item": "better_neon:neon_planks"
+    },
+    "2": {
+      "item": "better_neon:neon_planks"
+    }
+  },
+  "result": {
+    "item": "better_neon:neon_slab",
+    "count": 6
+  }
+}

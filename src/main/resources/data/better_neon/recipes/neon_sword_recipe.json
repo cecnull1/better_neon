@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/neon"
+    },
+    "1": {
+      "tag": "forge:ingots/neon"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "better_neon:neon_sword",
+    "count": 1
+  }
+}

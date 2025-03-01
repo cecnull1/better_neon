@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "better_neon:blocks/neon_ore_block",
+    "particle": "better_neon:blocks/neon_ore_block"
+  }
+}

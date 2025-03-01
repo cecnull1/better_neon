@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "better_neon:block/neon_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "better_neon:block/neon_world_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/neon"
+    },
+    "2": {
+      "tag": "forge:ingots/neon"
+    },
+    "3": {
+      "tag": "forge:ingots/neon"
+    },
+    "5": {
+      "tag": "forge:ingots/neon"
+    }
+  },
+  "result": {
+    "item": "better_neon:neon_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+Java Launcher: D:\MCreator2\MCreator\jdk\bin\java.exe
+Arguments: '--inJar, D:\XM\E6\build\fg_cache\net\minecraftforge\forge\1.18.2-40.2.21\forge-1.18.2-40.2.21-injected.jar, --outJar, D:\XM\E6\build\fg_cache\net\minecraftforge\forge\1.18.2-40.2.21_mapped_official_1.18.2\forge-1.18.2-40.2.21_mapped_official_1.18.2.jar, --logFile, accesstransform.log, --atFile, D:\XM\E6\src\main\resources\META-INF\accesstransformer.cfg, --atFile, D:\XM\E6\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\Administrator\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working directory: D:\XM\E6\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

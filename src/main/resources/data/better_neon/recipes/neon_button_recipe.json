@@ -1,0 +1,13 @@
+{
+  "group": "wooden_button",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "better_neon:neon_planks"
+    }
+  ],
+  "result": {
+    "item": "better_neon:neon_button",
+    "count": 1
+  }
+}

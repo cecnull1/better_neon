@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "better_neon:neon_lt_1",
+    "better_neon:flowing_neon_lt_1",
+    "better_neon:neon_lt_3",
+    "better_neon:flowing_neon_lt_3",
+    "better_neon:no_sp_neon_lt_1",
+    "better_neon:flowing_no_sp_neon_lt_1"
+  ]
+}

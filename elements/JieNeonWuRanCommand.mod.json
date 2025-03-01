@@ -1,0 +1,9 @@
+{
+  "_fv": 47,
+  "_type": "command",
+  "definition": {
+    "commandName": "betterneon",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">NeonWuRan</field><statement name=\"args\"><block type=\"entity\"><field name=\"name\">entities</field><field name=\"type\">entities</field><statement name=\"args\"><block type=\"logic\"><field name=\"name\">NWR</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">JNWRCP</field></block></statement></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">ZSGNeonLT1</field><statement name=\"args\"><block type=\"entity\"><field name=\"name\">entities</field><field name=\"type\">entities</field><statement name=\"args\"><block type=\"logic\"><field name=\"name\">Bool</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">SetZSGNeonLT1</field></block></statement></block></statement></block></statement></block></next></block></next></block></xml>"
+  }
+}

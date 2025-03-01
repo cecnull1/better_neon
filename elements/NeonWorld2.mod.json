@@ -1,0 +1,13 @@
+{
+  "_fv": 47,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionDimensions": [
+      "CUSTOM:NeonWorld",
+      "CUSTOM:NeonWorldA1"
+    ],
+    "restrictionBiomes": [],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_geode_simple\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"1\"></mutation><field name=\"size\">1</field><field name=\"cannot_replace_tag\">features_cannot_replace</field><field name=\"invalid_blocks_tag\">geode_invalid_blocks</field><field name=\"invalid_blocks_count\">1</field><value name=\"filling\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:NeonLT3</field></block></value><value name=\"inner_layer\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:NeonLT3</field></block></value><value name=\"alternate_inner_layer\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:NeonBlock</field></block></value><value name=\"middle_layer\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:NeonBlock</field></block></value><value name=\"outer_layer\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:NeonBlock</field></block></value><value name=\"crystal0\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:NeonLT3</field></block></value></block></value><next><block type=\"placement_count_on_every_layer\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">6</field></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">10</field></block></next></block></next></block></xml>"
+  }
+}

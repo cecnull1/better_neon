@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:ingots/neon"
+      },
+      {
+        "value": "TAG:forge:ingots/neon"
+      },
+      {
+        "value": "TAG:forge:ingots/neon"
+      },
+      {
+        "value": "TAG:forge:ingots/neon"
+      },
+      {
+        "value": "Items.BOAT"
+      },
+      {
+        "value": "TAG:forge:ingots/neon"
+      },
+      {
+        "value": "TAG:forge:ingots/neon"
+      },
+      {
+        "value": "TAG:forge:ingots/neon"
+      },
+      {
+        "value": "TAG:forge:ingots/neon"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NeonBlockCGH1"
+    },
+    "name": "neon_block_cgh_2",
+    "namespace": "mod"
+  }
+}

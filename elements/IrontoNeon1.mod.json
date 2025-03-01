@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 50,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.IRON_BLOCK"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:NeonIngot"
+    },
+    "name": "ironto_neon_1",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "better_neon:blocks/neon_planks"
+  }
+}

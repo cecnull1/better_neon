@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/neon"
+    },
+    {
+      "item": "better_neon:neon_lt_3_bucket"
+    }
+  ],
+  "result": {
+    "item": "better_neon:neon_world_a_1",
+    "count": 1
+  }
+}

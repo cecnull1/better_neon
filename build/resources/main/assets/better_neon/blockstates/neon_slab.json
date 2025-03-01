@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "better_neon:block/neon_slab"
+    },
+    "type=top": {
+      "model": "better_neon:block/neon_slab_top"
+    },
+    "type=double": {
+      "model": "better_neon:block/neon_slab_full"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "better_neon:block/neon_f_1"
+    },
+    "half=lower": {
+      "model": "better_neon:block/neon_f_1_bottom"
+    }
+  }
+}

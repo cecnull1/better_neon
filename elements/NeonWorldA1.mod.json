@@ -1,0 +1,53 @@
+{
+  "_fv": 47,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:NeonWorldFA1"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:NeonIce"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:NeonLT3"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "SMYS4DangYaoShuiXiaoGuoKaiShiYingYongShi"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "SMYS1DangYaoShuiXiaoGuoKaiShiYingYongShi"
+    },
+    "portalFrame": {
+      "value": "CUSTOM:NeonBlockCGH1"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:NeonLT2"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Neon World A 1 Portal Igniter",
+    "specialInfo": [],
+    "igniterTab": {
+      "value": "CUSTOM:BetterNeon"
+    },
+    "texture": "csm",
+    "portalTexture": "neon_ore_block",
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "NaIWuRanChuFa"
+    }
+  }
+}

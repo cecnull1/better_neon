@@ -1,0 +1,30 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:NeonBlock"
+      },
+      {
+        "value": "CUSTOM:NeonBlockCGH1"
+      },
+      {
+        "value": "CUSTOM:NeonIce"
+      },
+      {
+        "value": "CUSTOM:NeonLT3"
+      },
+      {
+        "value": "CUSTOM:NeonLT1"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "animals_spawnable_on",
+    "namespace": "minecraft"
+  }
+}

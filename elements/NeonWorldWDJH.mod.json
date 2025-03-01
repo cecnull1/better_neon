@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:storage_blocks/neon"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "TAG:forge:storage_blocks/neon"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "TAG:forge:ingots/neon"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "TAG:forge:storage_blocks/neon"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "TAG:forge:storage_blocks/neon"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NeonWorld"
+    },
+    "name": "neon_world_wdjh",
+    "namespace": "mod"
+  }
+}

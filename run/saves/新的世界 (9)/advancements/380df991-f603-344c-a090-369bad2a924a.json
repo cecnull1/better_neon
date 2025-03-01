@@ -1,0 +1,15 @@
+{
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-01-18 16:48:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-01-18 16:14:16 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}

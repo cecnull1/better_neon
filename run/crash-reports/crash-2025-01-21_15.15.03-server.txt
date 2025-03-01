@@ -1,0 +1,160 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2025/1/21 下午3:15
+Description: Ticking entity
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.startRiding(net.minecraft.world.entity.Entity)" because "Entity_1" is null
+	at net.mcreator.betterneon.procedures.EntityTickProcedure.execute(EntityTickProcedure.java:41) ~[%2385!/:?] {re:classloading}
+	at net.mcreator.betterneon.procedures.EntityTickProcedure.onEntityTick(EntityTickProcedure.java:23) ~[%2385!/:?] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_18_EntityTickProcedure_onEntityTick_LivingUpdateEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.7.jar%2311!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.7.jar%2311!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.7.jar%2311!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:324) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2379%2386!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2214) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading}
+	at net.minecraft.world.entity.Mob.tick(Mob.java:310) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.entity.animal.horse.AbstractHorse.tick(AbstractHorse.java:559) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:652) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:487) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.lambda$tick$3(ServerLevel.java:319) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:54) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:299) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:902) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:842) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:685) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:261) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mod: 
+	Better Neon (better_neon), Version: 1.0.8
+		at TRANSFORMER/better_neon@1.0.8/net.mcreator.betterneon.procedures.EntityTickProcedure.execute(EntityTickProcedure.java:41)
+Stacktrace:
+	at net.mcreator.betterneon.procedures.EntityTickProcedure.execute(EntityTickProcedure.java:41) ~[%2385!/:?] {re:classloading}
+	at net.mcreator.betterneon.procedures.EntityTickProcedure.onEntityTick(EntityTickProcedure.java:23) ~[%2385!/:?] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_18_EntityTickProcedure_onEntityTick_LivingUpdateEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.7.jar%2311!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.7.jar%2311!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.7.jar%2311!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:324) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2379%2386!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2214) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading}
+	at net.minecraft.world.entity.Mob.tick(Mob.java:310) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.entity.animal.horse.AbstractHorse.tick(AbstractHorse.java:559) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:652) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:487) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.lambda$tick$3(ServerLevel.java:319) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:54) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:299) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:horse (net.minecraft.world.entity.animal.horse.Horse)
+	Entity ID: 2
+	Entity Name: 马
+	Entity's Exact location: -3.63, -60.00, 13.59
+	Entity's Block location: World: (-4,-60,13), Section: (at 12,4,13 in -1,-4,0; chunk contains blocks -16,-64,0 to -1,319,15), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Entity's Momentum: 0.15, -0.08, 0.09
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:487) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.lambda$tick$3(ServerLevel.java:319) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:54) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:299) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:902) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:842) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:685) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:261) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['Dev'/1, l='ServerLevel[新的世界]', x=-5.98, y=-60.00, z=12.69]]
+	Chunk stats: 2209
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,-60,0), Section: (at 0,4,0 in 0,-4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 4540 game time, 4540 day time
+	Level name: 新的世界
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 92823 (now: false), thunder time: 133151 (now: false)
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:902) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:842) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:685) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:261) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.7, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 796743376 bytes (759 MiB) / 1644167168 bytes (1568 MiB) up to 4246732800 bytes (4050 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i5-12400F
+	Identifier: Intel64 Family 6 Model 151 Stepping 5
+	Microarchitecture: unknown
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce GTX 1650
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x2188
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.3623
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 34629.43
+	Virtual memory used (MB): 21745.00
+	Swap memory total (MB): 18432.00
+	Swap memory used (MB): 2548.10
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/1, l='ServerLevel[新的世界]', x=-5.98, y=-60.00, z=12.69]]
+	Data Packs: vanilla, mod:forge, mod:better_neon
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	ModLauncher: 9.1.3+9.1.3+main.9b69c82a
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		 mixin PLUGINSERVICE 
+		 eventbus PLUGINSERVICE 
+		 slf4jfixer PLUGINSERVICE 
+		 object_holder_definalize PLUGINSERVICE 
+		 runtime_enum_extender PLUGINSERVICE 
+		 capability_token_subclass PLUGINSERVICE 
+		 accesstransformer PLUGINSERVICE 
+		 runtimedistcleaner PLUGINSERVICE 
+		 mixin TRANSFORMATIONSERVICE 
+		 fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.18.2-40.2.21_mapped_official_1.18.2.jar   |Minecraft                     |minecraft                     |1.18.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |40.2.21             |DONE      |Manifest: NOSIGNATURE
+		main                                              |Better Neon                   |better_neon                   |1.0.8               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 2116ff6d-4897-4fad-946c-e7402122c80f
+	FML: 40.2
+	Forge: net.minecraftforge:40.2.21

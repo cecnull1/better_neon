@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:NeonF1"
+      },
+      {
+        "value": "CUSTOM:NeonF1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NeonF1"
+      },
+      {
+        "value": "CUSTOM:NeonF1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NeonF1"
+      },
+      {
+        "value": "CUSTOM:NeonF1"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NeonBlock"
+    },
+    "name": "neon_f_1to_neonof_block_1",
+    "namespace": "mod"
+  }
+}

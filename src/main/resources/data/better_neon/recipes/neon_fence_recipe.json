@@ -1,0 +1,32 @@
+{
+  "group": "wooden_fence",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "better_neon:neon_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "better_neon:neon_planks"
+    },
+    "3": {
+      "item": "better_neon:neon_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "better_neon:neon_planks"
+    }
+  },
+  "result": {
+    "item": "better_neon:neon_fence",
+    "count": 3
+  }
+}

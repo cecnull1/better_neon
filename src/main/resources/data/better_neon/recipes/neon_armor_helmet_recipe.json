@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/neon"
+    },
+    "1": {
+      "tag": "forge:ingots/neon"
+    },
+    "2": {
+      "tag": "forge:ingots/neon"
+    },
+    "3": {
+      "tag": "forge:ingots/neon"
+    },
+    "5": {
+      "tag": "forge:ingots/neon"
+    }
+  },
+  "result": {
+    "item": "better_neon:neon_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "better_neon:blocks/neonice",
+    "particle": "better_neon:blocks/neonice"
+  }
+}

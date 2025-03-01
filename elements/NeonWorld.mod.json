@@ -1,0 +1,56 @@
+{
+  "_fv": 47,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:NeonWorldF1"
+      },
+      {
+        "value": "CUSTOM:NeonWorldF2"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:NeonBlock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:NeonLT1"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "SMYS1DangYaoShuiXiaoGuoKaiShiYingYongShi"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "SMYS1DangYaoShuiXiaoGuoKaiShiYingYongShi"
+    },
+    "portalFrame": {
+      "value": "CUSTOM:NeonBlock"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:NeonLT2"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Neon World Portal Igniter",
+    "specialInfo": [],
+    "igniterTab": {
+      "value": "CUSTOM:BetterNeon"
+    },
+    "texture": "csm",
+    "portalTexture": "neon_lt1",
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "SMYS1DangYaoShuiXiaoGuoKaiShiYingYongShi"
+    }
+  }
+}

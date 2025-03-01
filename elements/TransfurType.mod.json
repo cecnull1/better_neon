@@ -1,0 +1,12 @@
+{
+  "_fv": 47,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Neon LT Transfur Type",
+    "description": "0 = 黑胶御风 1 = 复合体胶液Yuin 2 = 毒气兽化狼",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}
